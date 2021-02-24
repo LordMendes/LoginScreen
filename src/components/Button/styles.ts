@@ -3,10 +3,8 @@ import { lighten, linearGradient } from 'polished';
 
 export const Container = styled.button`
   margin-top: 24px;
-  width: 256px;
+  width: 100%;
   height: 48px;
-  left: 877px;
-  top: 511px;
 
   background: linear-gradient(267.79deg, #383e71 0%, #9d25b0 99.18%);
   box-shadow: 0px 10px 25px #cf99db;

@@ -31,7 +31,7 @@ export const InputBox = styled.div<InputProps>`
   width: 100%;
 
   display: flex;
-  align-items: center;
+  align-items: start;
 
   border: 1px solid #989fdb;
   box-sizing: border-box;
@@ -43,12 +43,17 @@ export const InputBox = styled.div<InputProps>`
     border: 0;
     color: #383e71;
     margin-bottom: 16px;
+    font-size: 16px;
 
     &::placeholder {
       color: #989fdb;
     }
     &:focus {
       outline: none;
+    }
+
+    svg {
+      margin-right: 16px;
     }
   }
 

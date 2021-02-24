@@ -14,7 +14,10 @@ const Login: React.FC = () => {
           <Input title="E-MAIL" />
           <Input title="SENHA" />
           <Button title="ENTRAR" />
-          <p>Esqueceu seu login ou senha? Clique aqui</p>
+          <p>
+            Esqueceu seu login ou senha? Clique{' '}
+            <a href="http://google.com">aqui</a>
+          </p>
         </LoginBox>
       </Content>
     </Container>
